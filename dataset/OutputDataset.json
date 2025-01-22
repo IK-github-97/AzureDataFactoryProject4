@@ -1,0 +1,16 @@
+{
+	"name": "OutputDataset",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "CosmosDbAccount",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "CosmosDbSqlApiCollection",
+		"schema": {},
+		"typeProperties": {
+			"collectionName": "EmployeeDetails"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
